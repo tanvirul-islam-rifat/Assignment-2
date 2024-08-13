@@ -37,7 +37,6 @@ html, body {
 /* Header Styles */
 .head{
     background:linear-gradient(-10deg, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0.2)),black;
-
 }
 
 .head-div{
@@ -154,7 +153,7 @@ html, body {
     display:grid;
     grid-template-columns: repeat(4, 1fr);
 }
-.pic-titles{
+.habit-pic-titles{
     font-size: 1.1rem;
     font-weight: 600;
 }
@@ -190,10 +189,108 @@ html, body {
     object-fit: cover;
     transform: scale(2.8) translate(-60px, 12%);
 }
+.exercise{
+    width: 80%;
+    text-align: left;
+    margin: 5% 15%;
+}
+.exercise-title{   
+    width: 60%;
+}
+.exercise-pictures{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+}
+
+.exercise-pic-one, .exercise-pic-two, .exercise-pic-three, .exercise-pic-four, .exercise-pic-five, .exercise-pic-six{
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    
+}
+.exercise-picture-one{
+    height: 88%;
+    width: 75%;
+    position: relative;
+
+}
+.exercise-picture-two{
+    height: 88%;
+    width: 145%;
+    position: relative;
+    left: -25%;
+    top: -3.6%;
+}
+.exercise-picture-three{
+    height: 88%;
+    width: 80%;
+    position: relative;
+    left: 20%;
+}
+.exercise-picture-four{
+    height: 100%;
+    width: 110%;
+    position: relative;
+}
+.exercise-picture-five{
+    height: 100%;
+    width: 90%;
+    position: relative;
+    left: 10%;
+}
+.exercise-picture-six{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+
+.ex-pic-titles-one{
+    position: relative;
+    top: 80%;
+    color: black;
+    left: 10%;
+    font-style: bold;
+
+}
+.ex-pic-titles-two{
+    position: relative;
+    top: 25%;
+    left: 10%;
+    color: white;
+}
+.ex-pic-titles-three{    
+    position: relative;
+    top: 80%;
+    left: 10%;
+    color: white;}
+.ex-pic-titles-four{
+    position: relative;
+    top: -90%;
+    left: 50%;
+    color: white;
+    width: 45%
+}
+.ex-pic-titles-five, .ex-pic-titles-six{
+    position: relative;
+    top: -20%;
+    left: 10%;
+    color: white;
+    width: 60%;
+}
+
+
+
+
+
+
+
+
 .BMI-title{
     width: 50%;
     text-align: left;
-    margin: auto;
+    margin:auto;
+    margin-top: 10%;
 }
 .calculator{
     background-color: #222222;
@@ -210,7 +307,7 @@ table{
     margin: 5% 30%;
 }
 table,td,th{
-    padding: 5px 20px;
+    padding: 8px 20px;
     border: rgba(255, 255, 255, 0.1) 1px solid;
     border-collapse: collapse;
 }
@@ -228,6 +325,7 @@ table,td,th{
 #box-five{
     grid-column: span 2;
     width: 99%;
+    padding: 1.5% 2%;
 }
 .box{
     border-radius: 8px;
@@ -272,7 +370,7 @@ table,td,th{
 }
 .footer{
     background-color: #222222;
-    padding:2% 10%;
+    padding: 1% 10%;
 
 }
 
@@ -413,6 +511,43 @@ hr{
     .calculate{
         width: 80%;
 
+    }
+    .exercise-pictures{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .exercise-picture-one{
+        height: 88%;
+        width: 80%;
+        position: relative;
+    
+    }
+    .exercise-picture-two{
+        height: 88%;
+        width: 125%;
+        position: relative;
+        left: -20%;
+        top: -2.3%;
+    }
+    .exercise-picture-four{
+        height: 90%;
+        width: 110%;
+        position: relative;
+        top: 7%;
+    }
+    .exercise-picture-five{
+        height: 90%;
+        width: 95%;
+        position: relative;
+        left: 10%;
+        top: 7%;
+    }
+    .ex-pic-titles-five{
+        position: relative;
+        top: -40%;
+        left: 10%;
+        color: white;
+        width: 60%;
     }
 
 
